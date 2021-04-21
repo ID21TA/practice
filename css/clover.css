@@ -1,0 +1,57 @@
+/*div.clover {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    margin: 20px auto;
+    color: green;
+  }
+ div.clover {
+    margin: 5px;
+*/
+div.clover1 {
+    height: 200px;
+    background-color: green;
+    border-radius: 50% 50% 0 50%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 0px;
+    position: absolute;
+}
+
+div.clover2{
+    height: 200px;
+    background-color: green;
+    border-radius: 50% 50% 50% 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 0px auto;
+    position: relative;
+    left: -640px;
+}
+
+div.clover3{
+    height: 200px;
+    background-color: green;
+    border-radius: 50% 0 50% 50%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 20px auto;
+    position: absolute;
+    top: 200px;
+}
+
+div.clover4{
+    height: 200px;
+    background-color: green;
+    border-radius: 0 50% 50% 50%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 20px auto;
+    position: relative;
+    top: -8px;
+    left: -640px;
+}
