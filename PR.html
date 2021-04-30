@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>自己PRサイト</title>
+<style type="text/css">
+.title{
+    background-color: #00bfff;
+    height: 40px;
+    width: auto;
+    line-height: 40px;
+    font-size: 20px;
+    color: ivory;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    font-size: 15px;
+    color: black;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+</style>
+</head>
+<body>
+    <h1 class="title">self-introduction</h1>
+     <p>井戸向拓海</p> 
+        <p>フォース株式会社</p>
+        <p>生年月日：7月14日</p>
+        <p>出身地：埼玉県</p>
+        <p>趣味：お菓子作り</p>
+    
+    <img id="mypic" src="img/1351935.jpg" width="400" height="300">
+    <div id="mypic"></div>
+        <script>
+        var pics_src = new Array("img/1351935.jpg","img/img_tree.jfif","img/1351935.jpg");
+        var num = -1;
+
+        slideshow_timer();
+
+        function slideshow_timer(){
+            if (num == 2){
+                num = 0;
+            } else {
+                num ++;
+            }
+            document.getElementById("mypic").src=pics_src[num];
+                setTimeout("slideshow_timer()",1000); 
+            }
+            </script>
+<script>
+    'use strict';
+    
+</script>
+</body>
+</html>
